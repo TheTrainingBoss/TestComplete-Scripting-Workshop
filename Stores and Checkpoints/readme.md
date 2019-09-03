@@ -10,9 +10,7 @@
 
 
 > The project will also use the sample \"Orders\" application that ships
-> with TestComplete. See the [[online
-> documentation]{.underline}](http://support.smartbear.com/viewarticle/56232/)
-> for the location of the samples on your hard drive.
+> with TestComplete. See the online documentation for the location of the samples on your hard drive.
 >
 #### About Stores & Checkpoints
 >
@@ -297,8 +295,7 @@
 
 ##### Using Groups within an Object Checkpoint
 
-> You\'ll notice from the [[above
-> example]{.underline}](#define-the-object-checkpoint), if you\'re
+> You\'ll notice from the above example, if you\'re
 > working with a UI containing many similar controls such as edit boxes
 > it can be tedious to select specific properties for each control.
 > TestComplete solves this problem with the **Edit Groups\...** feature
@@ -384,8 +381,7 @@
 > update the information stored by this Checkpoint during test execution
 > rather than comparing the data.
 >
-> For more on updating Checkpoints refer to the [[Updating
-> Checkpoints]{.underline}](#Updating_Checkpoints) topic.
+> For more on updating Checkpoints refer to the Updating Checkpoints topic.
 
 #### Region Checkpoint
 
@@ -445,7 +441,7 @@
     will display the **Create Region Checkpoint** wizard.
 
 2.  Launch a browser and navigate to
-    [[http://news.google.com/news/]{.underline}](http://news.google.com/news/).
+    [http://news.google.com/news/](http://news.google.com/news/).
 
 3.  Using the **Drag the target to point to the object** option,
     drag/drop the crosshairs onto the Google logo. Click the **Next**

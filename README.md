@@ -22,55 +22,55 @@ While every precaution has been taken in the preparation of this document, the p
 [Scripting](./Scripting/readme.md)
 --------------------------
 
-[Project Organization](#Project_Organization)
+[Project Organization](./Project%20Organization/readme.md)
 ------------------------------------------------
 
-[Test Log](#Test_Log)
+[Test Log](./Test%20Log/readme.md)
 ------------------------
 
-[Stores and Checkpoints](#Stores_and_Checkpoints)
+[Stores and Checkpoints](./Stores%20and%20Checkpoints/readme.md)
 ----------------------------------------------------
 
-[Name Mapping](#Name_Mapping)
+[Name Mapping](./Name%20Mapping/readme.md)
 ---------------------------------
 
-[TestComplete Debugging](#TestComplete_Debugging)
+[TestComplete Debugging](./Debugging/readme.md)
 -----------------------------------------------------
 
-[Event Handling](#Event_Handling)
+[Event Handling](./Event%20Handling/readme.md)
 -------------------------------------
 
-[Data Driven Testing](#Data_Driven_Testing)
+[Data Driven Testing](./Data%20Driven%20Testing/readme.md)
 -----------------------------------------------
 
-[Web Testing](#Web_Testing)
+[Web Testing](./Web%20Testing/readme.md)
 -------------------------------
 
-[Mobile](#Mobile)
+[Mobile](./Mobile/readme.md)
 ---------------------
 
-[Web Services Testing](#Web_Services_Testing)
+[Web Services Testing](./Web%20Services%20Testing/readme.md)
 -------------------------------------------------
 
-[Distributed Testing](#_bookmark259)
+[Distributed Testing](./Distributed%20Testing/readme.md)
 ----------------------------------------
 
-[Manual Testing](#manual-testing-2)
+[Manual Testing](./Manual%20Testing/readme.md)
 ----------------------------------------
 
-[Low Level Procedures](#low-level-procedures-2)
+[Low Level Procedures](./Low%20Level%20Procedures/readme.md)
 -----------------------------------------------
 
-[User Forms](#user-forms-2)
+[User Forms](./User%20Forms/readme.md)
 ----------------------------------------
 
-[Best Practices](#Best_Practices)
+[Best Practices](./Best%20Practices/readme.md)
 -------------------------------------
 
-[Appendix A - Cheat Sheet](#SmartBear)
+[Appendix A - Cheat Sheet](./Cheat%20Sheet/readme.md)
 ------------------------------------------------
 
-[Appendix B - Types of Testing](#Appendix_B_-_Types_of_Testing)
+[Appendix B - Types of Testing](./Types%20of%20Testing/readme.md)
 -------------------------------------------------------------------
 
 

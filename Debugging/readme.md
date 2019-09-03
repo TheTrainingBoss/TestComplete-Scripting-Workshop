@@ -161,7 +161,7 @@
 > Let\'s build an example that executes a **For Loop** and where we only
 > want execution to stop when the loop hits its 50th iteration.
 
-24. Add the code below to a script unit.
+1. Add the code below to a script unit.
 
 > **function** LoopTest(){
 >
@@ -187,7 +187,7 @@
 >
 > **Next End Sub**
 
-25. Click the gutter of the editor on the Log Message step to place a
+2. Click the gutter of the editor on the Log Message step to place a
     breakpoint on the line then right click the breakpoint and select
     Properties\...
 
@@ -195,7 +195,7 @@
 
 > **Figure 126 \--Setting Breakpoint Properties**
 
-26. On the Breakpoint Properties dialog enter \"50\" in the Pass count
+3. On the Breakpoint Properties dialog enter \"50\" in the Pass count
     field and click **OK**.
 
 ![](../media/image158.png)
@@ -210,7 +210,7 @@
 
 > **Figure 128 \--Conditional Breakpoint**
 
-27. Run the routine. When the editor breaks on Log.Message(), the Locals
+4. Run the routine. When the editor breaks on Log.Message(), the Locals
     window will show the \"i\" variable with a value of \"50\".
 
 ![](../media/image160.png)

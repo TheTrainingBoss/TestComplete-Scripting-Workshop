@@ -35,7 +35,7 @@
 > that contains both keyword and script tests. Notice that you can place
 > tests and/or groups at any level.
 
-![](./media/image56.png)
+![](../media/image56.png)
 
 > **Figure 43 \--The Project Workspace Editor**
 >
@@ -44,7 +44,7 @@
 > that there are no \"test items\". This dialog is telling you that you
 > need to navigate to the project\'s Test Items and add tests.
 
-![](./media/image57.png)
+![](../media/image57.png)
 
 > **Figure 44 \--The \"no selected test items\" Dialog**
 
@@ -55,7 +55,7 @@
 > screenshot below shows a script test being dragged and added as a Test
 > Item.
 
-![](./media/image58.png)
+![](../media/image58.png)
 
 > **Figure 45 \--Adding Tests**
 >
@@ -71,7 +71,7 @@
 > You can disable an item from being run by unselecting the checkbox.
 > This prevents the item and any of its children from running.
 
-![](./media/image59.png)
+![](../media/image59.png)
 
 > **Figure 46 \--Column Headings**
 >
@@ -96,7 +96,7 @@
 > Parameters** dialog where you can adjust the **Value** for each
 > parameter.
 
-![](./media/image60.png)
+![](../media/image60.png)
 
 > **Figure 47 \--Test Item Parameters**
 >
@@ -120,7 +120,7 @@
 > will be inserted. You can also remove columns by dragging them back to
 > the Customization dialog.
 
-![](./media/image61.png)
+![](../media/image61.png)
 
 > **Figure 48 \--Adding Columns**
 
@@ -130,7 +130,7 @@
 > same options that allow you to build the structure of the Test Items
 > tree view.
 
-![](./media/image62.jpeg)
+![](../media/image62.jpeg)
 
 > **Add Child Test Item \--** Adds a child test item just below the
 > selected item. You can use the context menu to add a new top-level
@@ -160,7 +160,7 @@
 > run and **Persistent Variables** that are available between tests
 > runs.
 
-![](./media/image63.png)
+![](../media/image63.png)
 
 > **Figure 49 \--Variables**
 >
@@ -212,21 +212,21 @@
 8.  In the Test Items window, click the **Add New Group** button on the
     toolbar. Click the group and rename it \"Smoke Test\".
 
-![](./media/image64.png)
+![](../media/image64.png)
 
 > **Figure 50 \--Adding and Renaming a Group**
 
 9.  Click the **Add Subgroup** button and rename the subgroup \"Order
     Entry\".
 
-![](./media/image65.png)
+![](../media/image65.png)
 
 > **Figure 51 \--Adding and Renaming a Subgroup**
 
 10. From the Project Explorer, drag the \"Login\" test and drop it on
     the \"Order Entry\" group.
 
-![](./media/image66.jpeg)
+![](../media/image66.jpeg)
 
 > **Figure 52 \--Adding a Test**
 
@@ -237,20 +237,20 @@
     Header\", \"Add Order Detail\" and \"Logout\", respectively. The
     Test Items should now look like the screenshot below.
 
-![](./media/image67.png)
+![](../media/image67.png)
 
 > **Figure 53 \--Project Test Items**
 
 13. Click the **Run Project** button from the TestComplete toolbar.
 
-![](./media/image68.png)
+![](../media/image68.png)
 
 > **Figure 54 \--Running the Project**
 
 14. When the test completes, the test log will display. Notice that the
     structure of the log matches the structure of the test items.
 
-![](./media/image69.png)
+![](../media/image69.png)
 
 > **Figure 55 \--Test Log**
 >

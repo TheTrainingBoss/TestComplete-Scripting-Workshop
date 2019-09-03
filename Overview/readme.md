@@ -18,7 +18,7 @@ Objectives
 > development tools such as Visual Studio. Below is screenshot of the
 > TestComplete **Integrated Development Environment** or **\"IDE\"**.
 
-![](./media/image8.jpeg)
+![](../media/image8.jpeg)
 
 > The TestComplete IDE contains two main tabs:
 >
@@ -47,7 +47,7 @@ Objectives
 > current session. The screenshot below shows the Workspace panel with
 > tabs opened for a project, a script unit and for events.
 
-![](./media/image9.png)
+![](../media/image9.png)
 
 > **Figure 1 \--The Workspace Panel**
 >
@@ -75,7 +75,7 @@ Objectives
 > contains a **ProjectSuite Logs** node that contains test logs grouped
 > by project.
 
-![](./media/image10.png)
+![](../media/image10.png)
 
 > **Figure 2 \--Project Explorer Tab**
 
@@ -97,7 +97,7 @@ Objectives
 > the **Project Explorer** you can create, edit, and delete **Project
 > Items** in your project using the context menu options:
 
-![](./media/image11.jpeg)
+![](../media/image11.jpeg)
 
 > **Figure 3 \--Project Context Menu**
 >
@@ -122,7 +122,7 @@ Objectives
 > no Project Item Elements and others have a fixed set like the
 > **Stores** Project Item.
 
-![](./media/image12.png)
+![](../media/image12.png)
 
 ##### Code Explorer
 
@@ -133,7 +133,7 @@ Objectives
 > large suites and projects. The Code Explorer also allows you to
 > cut-copy-paste and execute routines directly, via the context menu.
 
-![](./media/image13.png)
+![](../media/image13.png)
 
 > **Figure 4 \--Code Explorer Tab**
 
@@ -193,7 +193,7 @@ Objectives
 > : You can also use the Object Browser to find a running application
 > and select **Add Process to TestedApps** from the context menu.
 
-![](./media/image14.png)
+![](../media/image14.png)
 
 > **Figure 5 \--Adding an Application**
 >
@@ -202,7 +202,7 @@ Objectives
 > examples in the screenshot below show \"Notepad\" and \"Internet
 > Explorer\" added to the TestedApps list.
 
-![](./media/image15.png)
+![](../media/image15.png)
 
 > **Figure 6 \--TestedApps**
 >
@@ -225,18 +225,18 @@ Objectives
 > apps will display their main window, Android applications will be
 > loaded onto the device and then launched, and so on.
 
-![](./media/image16.png)
+![](../media/image16.png)
 
 > To run a TestedApp from a Keyword test:
 
 1.  Drag the **Run TestedApp** operation into the test area.
 
-![](./media/image17.png)
+![](../media/image17.png)
 
 2.  Select the TestedApp you want to run in your keyword test. Click the
     **Finish** button.
 
-![](./media/image18.png)
+![](../media/image18.png)
 
 > To run a TestedApp from Script use the **TestedApps** object, followed
 > by the name of the TestedApp you have defined and then call the
@@ -257,7 +257,7 @@ Objectives
 > The screenshot below shows the Object Browser window and the selected
 > Properties for the \"Orders\" process.
 
-![](./media/image19.jpeg)
+![](../media/image19.jpeg)
 
 > **Figure 7 \--The Object Browser**
 
@@ -310,7 +310,7 @@ Objectives
 > you might commonly use such as the \"CommandLine\", \"Name\" and
 > \"Parent\".
 
-![](./media/image20.png)
+![](../media/image20.png)
 
 > **Figure 8 \--The Basic View**
 >
@@ -319,7 +319,7 @@ Objectives
 > includes the basic items plus more obscure properties such as
 > \"HandleCount\" and \"ThreadCount\".
 
-![](./media/image21.png)
+![](../media/image21.png)
 
 > **Figure 9 \--The Advanced View**
 >
@@ -336,7 +336,7 @@ Objectives
 > clear the filter. Use the drop-down list to choose from previous
 > searches.
 >
-> ![](./media/image22.png)
+> ![](../media/image22.png)
 >
 > **Figure 10 \--Quick Search**
 
@@ -358,7 +358,7 @@ Objectives
 > processes and windows. The screenshot below shows the context menu for
 > one of the windows in the \"Notepad\" process.
 
-![](./media/image23.png)
+![](../media/image23.png)
 
 > **Figure 11 \--The Object Browser Context Menu**
 >
@@ -401,7 +401,7 @@ Objectives
 > also setup your own toolbars. The Tools and Test Engine toolbars below
 > provide quick access to tasks you want to perform on-the-fly.
 
-![](./media/image24.png)
+![](../media/image24.png)
 
 > **Map Object** \-- Displays the **Map Object** dialog with options to
 > find objects and add them to Name Mapping.
@@ -437,7 +437,7 @@ Objectives
 > of the dialog you can find all menu options used in TestComplete. You
 > can drag any of these commands to your toolbars.
 
-![](./media/image25.png)
+![](../media/image25.png)
 
 > **Figure 12 \--Customize Dialog**
 >
@@ -458,7 +458,7 @@ Objectives
 1.  Double click the Project Explorer **Project Node** to display the
     **Project** tab in the Workspace
 
-![](./media/image26.jpeg)
+![](../media/image26.jpeg)
 
 > **Figure 13 \--Displaying the Project Tab**
 
@@ -467,7 +467,7 @@ Objectives
 3.  Right-click the Test Items area and select **New Test Item** from
     the context menu. This will add a project item to the list.
 
-![](./media/image27.png)
+![](../media/image27.png)
 
 > **Figure 14 \--Creating a New Test Item**
 
@@ -477,7 +477,7 @@ Objectives
     the Available Tests list. Click the **OK** button to save the Test
     information.
 
-![](./media/image28.png)
+![](../media/image28.png)
 
 > **Figure 15 \--Selecting an Available Test**
 
@@ -485,7 +485,7 @@ Objectives
     **Run Project** button on the **Test Engine** toolbar to execute all
     the **Test Items** configured for the project.
 
-![](./media/image29.jpeg)
+![](../media/image29.jpeg)
 
 > **Figure 16 \--Run from Toolbar**
 >
@@ -499,7 +499,7 @@ Objectives
 > Editor Toolbar. You can also find a matching option in the context
 > menu.
 
-![](./media/image30.png)
+![](../media/image30.png)
 
 > **Figure 17 \--Running a Script Test from Toolbar**
 
@@ -514,7 +514,7 @@ Objectives
 
 2.  Double click a script unit to display the code editor.
 
-![](./media/image31.png)
+![](../media/image31.png)
 
 > **Figure 18 \--Opening the Code Editor**
 
@@ -534,7 +534,7 @@ Objectives
 >
 > The screenshot below shows \"Unit1\" with the new \"Test\" function.
 
-![](./media/image32.png)
+![](../media/image32.png)
 
 > **Figure 19 \--Calling a Keyword Test from JScript**
 
@@ -543,7 +543,7 @@ Objectives
 > When the test is actually run, the **Playback Indicator** displays
 > status messages and allows you to pause or stop the test.
 
-![](./media/image33.jpeg)
+![](../media/image33.jpeg)
 
 > **Figure 20 \--The Playback Indicator**
 >

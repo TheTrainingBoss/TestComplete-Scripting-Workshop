@@ -19,7 +19,7 @@ While every precaution has been taken in the preparation of this document, the p
 [Overview of TestComplete](./Overview/readme.md)
 --------------------------------------------------------
 
-[Scripting](#Scripting)
+[Scripting](./Scripting/readme.md)
 --------------------------
 
 [Project Organization](#Project_Organization)

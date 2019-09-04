@@ -13,6 +13,7 @@ Products that are referred to in this document may be either trademarks and/or r
 
 While every precaution has been taken in the preparation of this document, the publisher and the author assume no responsibility for errors or omissions, or for damages resulting from the use of information contained in this document or from the use of programs and source code that may accompany it. In no event shall the publisher and the author be liable for any loss of profit or any other commercial damage caused or alleged to have been caused directly or indirectly by this document.
 
+![](./media/testcomplete_github.png)
 
 **Table of Contents**
 

@@ -1508,7 +1508,7 @@
 >
 > menuSave.Touch();
 
-}
+> }
 
 > }
 >
@@ -1521,8 +1521,6 @@
 > }
 >
 > }
-
-[]{#Xamarin_Open_Apps_Testing .anchor}
 
 #### Summary
 >

@@ -144,7 +144,7 @@
 > CI servers include a means of publishing test results providing for
 > greater visibility into the automation efforts.
 >
-#### *General
+#### General
 >
 > The following are general tips and best practices to help you get the
 > most out of TestComplete:

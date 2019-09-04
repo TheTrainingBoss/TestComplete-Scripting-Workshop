@@ -1,8 +1,6 @@
 ### Mobile
 
-12. []{#Mobile .anchor}**Mobile**
-
-> **Objectives**
+####  Objectives
 >
 > Does the mobile application you\'re testing show up in a browser on
 > the device? Perhaps you\'re working with a native Android application
@@ -15,9 +13,8 @@
 > application\'s internals and \"white-box\" native Android applications
 > that are open to inspection.
 
-[]{#_bookmark212 .anchor}
 
-> **Mobile Testing Strategies**
+#### Mobile Testing Strategies
 >
 > Here are some questions that can help determine which TestComplete
 > feature will work best for your needs:
@@ -34,8 +31,7 @@
 > access to the internal objects of an application? Are you testing
 > Xamarin applications?
 >
-> The [[Mobile Web]{.underline}](#Mobile_Web) testing option covers the
-> greatest number of devices. In mobile web testing, TestComplete
+> The Mobile Web testing option covers the greatest number of devices. In mobile web testing, TestComplete
 > virtual browsers can be configured to any set of device
 > characteristics and dimensions. This option is relatively easy to set
 > up, leverages your existing knowledge of testing web applications and
@@ -44,22 +40,18 @@
 > responsive design. The drawback is that you will not have access to
 > the devices internal objects or hardware.
 >
-> Within the [[Android]{.underline}](#Android) category, there are two
-> approaches for native Java applications that you can use separately or
+> Within the Android category, there are two approaches for native Java applications that you can use separately or
 > mix-and-match. If you don\'t have access to the application\'s source
-> code, you can perform black-box testing using [[Image Based
-> Testing]{.underline}](#image-based-testing). TestComplete has a
-> powerful mechanism that recognizes images on the screen and allows you
+> code, you can perform black-box testing using Image Based
+> Testing. TestComplete has a powerful mechanism that recognizes images on the screen and allows you
 > to work with that area of the screen programmatically and through
 > keyword tests. If you have access to an Android application\'s source
 > code, you can perform white-box testing by configuring the application
-> as an [[Open Android
-> Application]{.underline}](#open-android-applications). This will
-> provide you with deep access to an Android application\'s internal
+> as an Open Android Application. This will provide you with deep access to an Android application\'s internal
 > screen objects and hardware. Android is fully supported and iOS is on
 > the way.
 >
-> []{#Mobile_Web .anchor}**Mobile Web**
+#### Mobile Web
 >
 > Verifying that websites work on all devices, dimensions and platforms
 > has become a major scalability challenge. You certainly can\'t keep a
@@ -71,22 +63,20 @@
 > pre-configured virtual browsers that run from the test recording
 > toolbar.
 
-![](./media/image210.png){width="4.121692913385827in"
-height="2.454374453193351in"}
+![](../media/image210.png)
 
 > The screenshot below shows a composite of several virtual browsers
 > running the same site on iPad, iPhone 5 and Samsung Galaxy Mini.
 
-![](./media/image211.jpeg){width="5.082027559055118in"
-height="6.4518744531933505in"}
+![](../media/image211.jpeg)
 
 > Be aware that TestComplete uses the Chrome browser, no matter what
-> browser the actual device is using. Be sure to [[prepare Chrome for
+> browser the actual device is using. Be sure to [prepare Chrome for
 > Web
-> Testing]{.underline}](http://support.smartbear.com/viewarticle/62859/?_ga=1.49190255.819616413.1378486108)
-> and also [[install
-> Chrome]{.underline}](http://support.smartbear.com/downloads/testcomplete/chrome-patches/?_ga=1.49190255.819616413.1378486108)
-> [[patches]{.underline}](http://support.smartbear.com/downloads/testcomplete/chrome-patches/?_ga=1.49190255.819616413.1378486108)
+> Testing](http://support.smartbear.com/viewarticle/62859/?_ga=1.49190255.819616413.1378486108)
+> and also [install
+> Chrome](http://support.smartbear.com/downloads/testcomplete/chrome-patches/?_ga=1.49190255.819616413.1378486108)
+> [patches](http://support.smartbear.com/downloads/testcomplete/chrome-patches/?_ga=1.49190255.819616413.1378486108)
 > to match the Chrome version you have.
 
 #### Using Virtual Browsers in Script
@@ -153,7 +143,7 @@ height="6.4518744531933505in"}
     Testing \| Virtual Browsers**. This step will display all of the
     current virtual browsers (see the screenshot below).
 
-![](./media/image212.png){width="5.985in" height="3.255in"}
+![](../media/image212.png)
 
 44. Click the **Add\...** button.
 
@@ -169,32 +159,28 @@ height="6.4518744531933505in"}
     the physical device screen may have more pixels than the browser
     screen.
 
-![](./media/image213.png){width="4.152938538932633in"
-height="2.46875in"}
+![](../media/image213.png)
 
 47. Enter a browser name that will show up in the **Name** column of the
     **Virtual Browsers**
 
 > list and click the **Finish** button.
 
-![](./media/image214.png){width="3.1820078740157482in"
-height="2.041874453193351in"}
+![](../media/image214.png)
 
 > The next time you record a test, the new entry will show in the
 > drop-down list and will be available for keyword and script tests to
 > use.
 
-![](./media/image215.png){width="4.161839457567804in"
-height="2.7083333333333335in"}
+![](../media/image215.png)
 
-> []{#Android .anchor}**Android**
+#### Android
 >
 > If you need greater control of an Android device than [[Mobile
 > Web]{.underline}](#Mobile_Web) testing in a browser can provide,
 > TestComplete has two solutions. For the best control, but requiring
 > knowledge of how to program an Android application, configure an
-> [[Open Android Application]{.underline}](#open-android-applications).
-> This will open up the gates to an Android application\'s internal
+> Open Android Application. This will open up the gates to an Android application\'s internal
 > objects, sensors, GPS, operating system commands and so on. If you
 > don\'t have access to the source, you can still use [[ Image Based
 > Testing]{.underline}](#image-based-testing) to access on-screen
@@ -202,7 +188,7 @@ height="2.7083333333333335in"}
 > handles differences between devices, resolutions, even minor
 > variations in pixels and colors.
 
-#### The Moble Screen
+#### The Mobile Screen
 
 > The **Mobile Screen** is the primary tool for testing physical
 > devices. It is a device emulator with mobile testing capabilities and
@@ -210,17 +196,15 @@ height="2.7083333333333335in"}
 > Screen allows you to interact with a variety of devices in a
 > standardized UI, create mobile checkpoints, add images to \"image
 > sets\", take screenshots, record multi- touch gestures and install
-> [[Android Agent]{.underline}](#install-android-agent) for use in
-> \"white box\", [[Open
-> Android]{.underline}](#open-android-applications)
-> [[Applications]{.underline}](#open-android-applications). The Mobile
-> Screen can emulate devices hooked up through USB, Android SDK
+> Android Agent for use in \"white box\", Open Android
+> Applications. The Mobile Screen can emulate devices hooked up through USB, Android SDK
 > emulators and virtual machines running the Android OS (such as
 > Oracle\'s VirtualBox).
 
-![](./media/image216.jpeg){width="2.6758562992125983in" height="5.61in"}
+![](../media/image216.jpeg)
 
-> **Note**: The Mobile Screen connects only to devices hooked up via USB
+#### Note: 
+>The Mobile Screen connects only to devices hooked up via USB
 > cable or some emulation of USB. Wi-Fi connections are not supported.
 >
 > You should interact with the Mobile Screen using keyboard, mouse or
@@ -231,8 +215,7 @@ height="2.7083333333333335in"}
 > To get started using the Mobile Screen, click the **Show Mobile
 > Screen** button that appears on the Test Engine toolbar.
 
-![](./media/image217.png){width="3.008513779527559in"
-height="0.3879155730533683in"}
+![](../media/image217.png)
 
 > If no device is connected, you\'ll get a warning. If there\'s only a
 > single device available it will connect and run. If multiple devices
@@ -242,16 +225,14 @@ height="0.3879155730533683in"}
 > Android SDK emulator. After connecting, display the Mobile Screen by
 > selecting a device and clicking the **OK** button.
 
-![](./media/image218.png){width="3.9846970691163603in"
-height="2.856561679790026in"}
+![](../media/image218.png)
 
 > The Mobile Screen user interface consists of a toolbar, a link to
 > **Install TestComplete Agent**, the emulated screen and a footer that
 > contains buttons that emulate hardware on the device. The toolbar is
 > shown in the screenshot below.
 
-![](./media/image219.png){width="5.067001312335958in"
-height="2.0833333333333335in"}
+![](../media/image219.png)
 
 > The **Size** button gives you a slider that resizes the emulated
 > device\'s screen area and a
@@ -259,20 +240,16 @@ height="2.0833333333333335in"}
 > **Best Size** link to get the optimal match between the device and the
 > Mobile Screen.
 
-![](./media/image220.jpeg){width="2.678590332458443in"
-height="3.6093744531933507in"}
+![](../media/image220.jpeg)
 
 > **Record** and **Play** [[Gestures]{.underline}](#gestures) buttons
 > allow you to test using complex, multiple touches on the device. See
-> the [[Gestures]{.underline}](#gestures) topic for more on recording
-> and playing gestures.
+> the Gestures topic for more on recording and playing gestures.
 >
-> [[Mobile Checkpoints]{.underline}](#mobile-checkpoints) allows you to
-> take a snapshot of the device\'s screen for later comparison. This
+> Mobile Checkpoints allows you to take a snapshot of the device\'s screen for later comparison. This
 > checkpoint option depends strictly on visual comparison.
 >
-> The **Add Image** button allows you to add an image to [[Image
-> Sets]{.underline}](#image-based-testing).
+> The **Add Image** button allows you to add an image to Image Sets.
 >
 > The **Select Device** drop down list lets you select the device that
 > should show in the Mobile Screen.
@@ -280,16 +257,14 @@ height="3.6093744531933507in"}
 > **Take Screenshot** records the emulated screen as a .bmp or .png
 > image.
 >
-> [[Install Android Agent]{.underline}](#install-android-agent) loads a
-> package on the device that exchanges data with open Android
+> Install Android Agent loads a package on the device that exchanges data with open Android
 > application and retrieves data from sensors on the device.
 >
 > The Mobile Screen footer emulates standard hardware buttons on the
 > device. From left to right, the buttons are **Back**, **Home**,
 > **Menu**, **Volume Down**, **Volume Up**, and **Power**.
 
-![](./media/image221.jpeg){width="2.3546314523184604in"
-height="0.29302055993000875in"}
+![](../media/image221.jpeg)
 
 #### Using TestedApp to Manage Packages
 
@@ -303,14 +278,12 @@ height="0.29302055993000875in"}
 
 1.  In the Project Explorer, Select, the **TestedApps** node.
 
-![](./media/image222.png){width="2.279501312335958in"
-height="2.18625in"}
+![](../media/image222.png)
 
 2.  In the TestedApps editor, right-click and select **Add Android
     Application\...** from the context menu.
 
-![](./media/image223.png){width="4.227226596675416in"
-height="4.630311679790026in"}
+![](../media/image223.png)
 
 3.  Define the path for the **Android application package file**. The
     path will point to the location of the .apk file on your local PC
@@ -318,15 +291,14 @@ height="4.630311679790026in"}
     the **Deploy to the device on start** checkbox then click the **OK**
     button.
 
-![](./media/image224.png){width="5.573920603674541in" height="3.7125in"}
+![](../media/image224.png)
 
 4.  Now that you have defined the TestedApp, right-click the item and
     click **Run Selected**
 
 > from the context menu.
 
-![](./media/image225.png){width="5.905713035870516in"
-height="4.102916666666666in"}
+![](../media/image225.png)
 
 > The package will be loaded to the default device and will also show in
 > the Mobile Screen. If the package was already loaded to the device it
@@ -334,13 +306,11 @@ height="4.102916666666666in"}
 > device.
 >
 > For more on how to run a TestedApp from the IDE, keyword test or
-> script, see the [[Running]{.underline}](#running-a-testedapp) [[a
-> TestedApp]{.underline}](#running-a-testedapp) topic.
+> script, see the Running a TestedApp topic.
 
 #### Using Script to Manage Packages
 
-> While [[Using TestedApps to Manage
-> Packages]{.underline}](#using-testedapp-to-manage-packages) is a
+> While Using TestedApps to Manage Packages is a
 > practical, one-size-fits-all solution, *script* provides fine-grain
 > control over package information, installation, launching and removal
 > when you need it. The device\'s **PackageManager** object can install
@@ -428,9 +398,7 @@ height="4.102916666666666in"}
 >
 > The **Device** goody bag includes information about the device itself,
 > access to the **Desktop** object that represents the device screen,
-> access to [[GPS]{.underline}](#gps) and
-> [[Sensor]{.underline}](#sensors) objects, ability to simulate an
-> **SMS**, and the ability to
+> access to GPS and Sensor objects, ability to simulate an **SMS**, and the ability to
 > **Drag**/**Swipe**/**Touch**/**TouchAndHold**/**TouchPress**/
 > **TouchRelease** anything you find on-screen. You can also execute
 > Android shell commands and even **Reboot** the device.
@@ -483,8 +451,7 @@ height="4.102916666666666in"}
 >
 > The screenshot below shows sample output for one run of the test:
 
-![](./media/image226.png){width="4.659617235345582in"
-height="1.6396872265966753in"}
+![](../media/image226.png)
 
 ##### Device Methods
 
@@ -503,24 +470,20 @@ height="1.6396872265966753in"}
 > asynchronous and your test will continue without waiting for the call
 > to complete.
 
-![](./media/image227.jpeg){width="2.0172408136482938in" height="3.6in"}
+![](../media/image227.jpeg)
 
 > All of the standard Findxxx() methods are available to [[Open Android
 > Applications]{.underline}](#open-android-applications) including
 > **FindAll()**, **FindAllChildren()**, **FindChild()** and
-> **FindID()**. See the [[Open
-> Android]{.underline}](#open-android-applications)
-> [[Applications]{.underline}](#open-android-applications) topic for
-> examples.
+> **FindID()**. See the Open Android Applications topic for examples.
 >
 > To use single-touch gestures on a mobile device, the **Drag()**,
 > **Swipe()** and Touchxxx() methods simulate standard user actions.
 > These methods are all asynchronous. The **Drag()** method takes
 > starting and ending X and Y coordinates. Optionally, you can add a
 > delay time (defaults to 1000). The example below uses an item from an
-> [[Image Set]{.underline}](#image-based-testing) to get the starting
-> location of an icon and then drags it to position 100 pixels to the
-> right and down.
+> Image Set to get the starting location of an icon and then drags 
+> it to position 100 pixels to the right and down.
 >
 > **var** calculatorPosition, X, Y;
 >
@@ -577,12 +540,11 @@ height="1.6396872265966753in"}
 >
 > The log output is shown in the screenshot below.
 
-![](./media/image228.png){width="4.73812445319335in"
-height="1.3715616797900263in"}
+![](../media/image228.png)
 
 > For hardware buttons, use the **PressButton()** method. It takes one
-> of the constants listed in the help under [[Mobile Key
-> Constants]{.underline}](http://support.smartbear.com/viewarticle/59690/).
+> of the constants listed in the help under [Mobile Key
+> Constants](http://support.smartbear.com/viewarticle/59690/).
 > These constants cover all the alphanumeric, function keys, device keys
 > (home, back, camera, etc.), game controller keys (left thumb button,
 > select, etc.), media keys (eject, play, pause, etc.), modifier keys
@@ -604,7 +566,7 @@ height="1.3715616797900263in"}
 >
 > The screenshot below shows sample output:
 
-![](./media/image229.png){width="4.487819335083115in" height="3.795in"}
+![](../media/image229.png)
 
 ##### GPS
 
@@ -643,8 +605,7 @@ height="1.3715616797900263in"}
 >
 > }
 
-![](./media/image230.png){width="5.526005030621173in"
-height="1.4334372265966755in"}
+![](../media/image230.png)
 
 > Note that the **Location.Accuracy** property denotes the estimated
 > accuracy of the device location, in meters. This number describes a
@@ -673,7 +634,7 @@ height="1.4334372265966755in"}
 >
 > The screenshot below shows a log of sample output:
 
-![](./media/image231.png){width="4.68165135608049in" height="4.785in"}
+![](../media/image231.png)
 
 #### Image Based Testing
 
@@ -694,8 +655,7 @@ height="1.4334372265966755in"}
 > screenshot below shows the ImageRepository node with two image sets
 > named \"Calculator\" and \"HomeScreen\".
 
-![](./media/image232.png){width="2.2128324584426946in"
-height="1.4025in"}
+![](../media/image232.png)
 
 > Let\'s say you want to automate a clock icon on your device\'s home
 > screen. The icon may be displayed using more than one image, depending
@@ -719,8 +679,7 @@ height="1.4025in"}
 > This mechanism handles varying resolutions and even helps recognize
 > objects that use completely different artwork to represent the object.
 
-![](./media/image233.jpeg){width="5.886568241469816in"
-height="4.574998906386702in"}
+![](../media/image233.jpeg)
 
 > What if the wallpaper on the device changes or there is some variation
 > in the pixel quality between devices? The **Image Parameters** section
@@ -738,11 +697,9 @@ height="4.574998906386702in"}
 ##### Adding Images
 
 > You can conveniently add new images to an Image Set by clicking the
-> **Add Image** button on [[The Moble
-> Screen]{.underline}](#the-moble-screen).
+> **Add Image** button on The Mobile Screen.
 
-![](./media/image234.jpeg){width="2.278601268591426in"
-height="1.1653116797900263in"}
+![](../media/image234.jpeg)
 
 > The **Add Image to Image Repository** dialog will display. After a few
 > moments, a second window labeled **Select Object from Screen** will
@@ -750,23 +707,21 @@ height="1.1653116797900263in"}
 > **Select** button that appears to save the area to the **Add Image to
 > Image Repository** dialog. You can change this selected area later.
 
-![](./media/image235.jpeg){width="1.6205785214348207in"
-height="1.4128116797900263in"}
+![](../media/image235.jpeg)
 
 > Provide an **Item name** to be used in scripts and keyword tests. Also
 > select an image set from the drop-down list. If you need to retake the
 > image, click the **Select Image\...** button. Click the **Finish**
 > button to create a new item in the Image Set.
 
-![](./media/image236.jpeg){width="5.927136920384952in"
-height="5.958333333333333in"}
+![](../media/image236.jpeg)
 
 > The image will be added as an item to the Image Set editor. Notice the
 > **Script line** at the bottom of the Image Set editor dialog that
 > provides sample script showing how to programmatically touch the
 > selected image.
 
-![](./media/image237.jpeg){width="5.972109580052494in" height="4.17in"}
+![](../media/image237.jpeg)
 
 > You can add more images to the strip for the Image Set item by
 > right-clicking and selecting **Add Image\...** or **Add Image From
@@ -774,7 +729,7 @@ height="5.958333333333333in"}
 > Parameters\...** context menu option to tweak color or pixel
 > tolerances.
 
-![](./media/image238.jpeg){width="5.915094050743657in" height="2.75in"}
+![](../media/image238.jpeg)
 
 > The Image Set Editor **Item Parameters** panel will display and allow
 > you to change the **Item name**. You can change the Item name at any
@@ -787,8 +742,7 @@ height="5.958333333333333in"}
 > option unchecked so that selection will occur at the exact center of
 > the control.
 
-![](./media/image239.png){width="2.6124037620297464in"
-height="1.1240616797900262in"}
+![](../media/image239.png)
 
 > The **Preview** panel shows the current selected Image Strip item and
 > has two important rectangular regions (see screenshot below). The
@@ -803,8 +757,7 @@ height="1.1240616797900262in"}
 > have coordinates passed to them. Otherwise, the center of the
 > recognition area is used for touch actions.
 
-![](./media/image240.jpeg){width="2.0213024934383204in"
-height="2.0109372265966754in"}
+![](../media/image240.jpeg)
 
 ##### Using Image Sets in Script
 
@@ -824,28 +777,24 @@ height="2.0109372265966754in"}
 > images taken from the Calculator application as shown in the
 > screenshot below.
 
-![](./media/image241.jpeg){width="2.675910979877515in"
-height="5.548124453193351in"}
+![](../media/image241.jpeg)
 
 > The example uses an Image set populated from the Calculator with
 > sufficient image to multiply 12x12. The Image set also includes an
 > image of the result \"= 144\".
 
-![](./media/image242.jpeg){width="5.86129593175853in"
-height="3.845832239720035in"}
+![](../media/image242.jpeg)
 
 > The **Create Mobile Checkpoint** dialog displays in response to a new
 > keyword **Mobile Checkpoint** operation or by clicking the **Create
 > Mobile Checkpoint** option from the recording toolbar. Your options
 > are to **Create a new item** or to **Use an existing item**. The
 > **Create a new item** option brings up essentially the same dialog as
-> used for [[Adding]{.underline}](#adding-images)
-> [[Images]{.underline}](#adding-images) to an image set. If you choose
+> used for Adding Images to an image set. If you choose
 > the **Use an existing item**, select an image from the list of Image
 > Repository items and click the **Finish** button.
 
-![](./media/image243.png){width="5.589114173228347in"
-height="5.73375in"}
+![](../media/image243.png)
 
 ##### Mobile Checkpoints in Scripts
 
@@ -883,8 +832,7 @@ height="5.73375in"}
 > multi-touch events. When you\'re done, click the **Stop Recording**
 > button.
 
-![](./media/image244.jpeg){width="5.329616141732283in"
-height="4.379374453193351in"}
+![](../media/image244.jpeg)
 
 > TestComplete has a rather nifty way of graphically representing the
 > movement of points touched on the device by animating each point in a
@@ -896,7 +844,7 @@ height="4.379374453193351in"}
 > better accuracy. Click the **Play Gesture** button to select a
 > recorded gesture and run it.
 
-![](./media/image245.png){width="5.204507874015748in" height="3.1875in"}
+![](../media/image245.png)
 
 ##### Playing Gestures from Script
 
@@ -918,8 +866,7 @@ height="4.379374453193351in"}
 > error text for the GPS and SensorsCount properties is letting you know
 > that something called the Android Agent is not available.
 
-![](./media/image246.png){width="5.933443788276465in"
-height="3.8098950131233598in"}
+![](../media/image246.png)
 
 > **Figure 168 \-- Devices in the Object Browser**
 >
@@ -927,10 +874,11 @@ height="3.8098950131233598in"}
 > application, you need to make changes on both the Android device and
 > in the Android application:
 >
-> [[Install Android Agent]{.underline}](#install-android-agent) [[Modify
-> the Android Application]{.underline}](#modify-the-android-application)
+> Install Android Agent 
+> Modify the Android Application
 >
-> **Note**: This topic does not cover installing or configuration of the
+#### Note: 
+> This topic does not cover installing or configuration of the
 > Android SDK, Java or the Eclipse IDE. Refer to the online
 > documentation for more information about these topics.
 
@@ -942,18 +890,17 @@ height="3.8098950131233598in"}
 
 1.  Click the **Show Mobile Screen** button.
 
-![](./media/image247.png){width="3.01in" height="0.43895778652668416in"}
+![](../media/image247.png)
 
 2.  Choose a device to display in the Mobile Screen.
 
-![](./media/image248.png){width="5.458248031496063in"
-height="4.24875in"}
+![](../media/image248.png)
 
 3.  When the Mobile Screen displays, click the **Install** link located
     at the top of the screen. This step will take a little time while
     the com.smartbear.androidagent package is installed to your device.
 
-![](./media/image249.jpeg){width="2.763546587926509in" height="2.125in"}
+![](../media/image249.jpeg)
 
 4.  A dialog will announce that the Android Agent has been installed
     successfully. Close the dialog.
@@ -982,15 +929,13 @@ height="4.24875in"}
     directory\>\\Bin\\Extensions\\Android**. This step adds a new JAR to
     the Libraries list:
 
-![](./media/image250.png){width="5.928767497812774in"
-height="3.8901038932633423in"}
+![](../media/image250.png)
 
 6.  Select the **Order and Export** tab.
 
 7.  Check the box next to the PatchServices.jar entry.
 
-![](./media/image251.png){width="5.544225721784777in"
-height="2.46875in"}
+![](../media/image251.png)
 
 8.  Click **OK** to close the properties dialog.
 
@@ -1016,8 +961,7 @@ height="2.46875in"}
 > button to create the new class file. The screenshot below shows an
 > example completed application class in the New Java Class dialog.
 
-![](./media/image252.png){width="4.498864829396325in"
-height="3.58875in"}
+![](../media/image252.png)
 
 ##### Use the Object Brow ser
 
@@ -1037,8 +981,7 @@ height="3.58875in"}
 > mapped, stored and so on, just as you can with desktop or web
 > applications.
 
-![](./media/image253.png){width="3.1824267279090113in"
-height="1.9903116797900262in"}
+![](../media/image253.png)
 
 ##### Scripting Walk-Through
 
@@ -1047,19 +990,17 @@ height="1.9903116797900262in"}
 > Devices]{.underline}](#test-multiple-devices)**:** Iterate devices so
 > that the same script is run against each device.
 >
-> [[Manage Android Packages]{.underline}](#manage-android-packages):
+> Manage Android Packages:
 > Load package files from the PC, install, launch, assign packages to
 > TestedApps, and remove packages from a device.
 >
-> [[Wait for Processes and
-> Activities]{.underline}](#wait-for-processes-and-activities): Once a
-> package is launched, a process starts on the device. Each process has
+> Wait for Processes and Activities: 
+> Once a package is launched, a process starts on the device. Each process has
 > one or more *activities*. Wait for processes and activities to be
 > available before trying to access child objects.
 >
-> [[Work with On-Screen
-> Objects](#work-with-on-screen-objects):]{.underline} Find controls
-> listed in the Object Browser with the same Findxxx script methods used
+> Work with On-Screen Objects
+> Find controls listed in the Object Browser with the same Findxxx script methods used
 > throughout TestComplete.
 
 ##### Prerequisites
@@ -1069,10 +1010,8 @@ height="1.9903116797900262in"}
 > NotePad sample project found in Android
 >
 > 4.4.2. Before working through the steps listed be sure to load the
-> NotePad project into the Eclipse IDE, [[Install Android
-> Agent]{.underline}](#install-android-agent) and [[Modify the Android
-> Application]{.underline}](#modify-the-android-application) to allow
-> communication with TestComplete.
+> NotePad project into the Eclipse IDE, Install Android Agent] and Modify the Android
+> Application to allow communication with TestComplete.
 
 ##### Test Multiple Devices
 
@@ -1158,8 +1097,7 @@ height="1.9903116797900262in"}
 > **Start\...** button. The screenshot below shows emulator for Android
 > 4.0.3 being started.
 
-![](./media/image254.png){width="5.913641732283464in"
-height="3.4340616797900263in"}
+![](../media/image254.png)
 
 ##### Manage Android Packages
 
@@ -1169,8 +1107,8 @@ height="3.4340616797900263in"}
 > **TestedApp**. This example uses an Android SDK example called
 > NotePad. apk.
 >
-> This lab starts with the code from the previous [[Test Multiple
-> Devices]{.underline}](#test-multiple-devices) lab and adds the ability
+> This lab starts with the code from the previous Test Multiple
+> Devices lab and adds the ability
 > to load, install, run and remove a package.
 
 1.  Add new variables named **package** and **path** to the **var**
@@ -1263,9 +1201,8 @@ height="3.4340616797900263in"}
 > app to change activities, you will need to wait again for the new
 > activity to run.
 >
-> This lab starts with the code from the previous [[Manage Android
-> Packages]{.underline}](#manage-android-packages) lab and adds
-> statements that wait for the process and main activity to load.
+> This lab starts with the code from the previous Manage Android
+> Packages lab and adds statements that wait for the process and main activity to load.
 
 1.  Add **notepadProcess**, **notesListActivity** and
     **notepadNameSpace** to the var list. In particular,
@@ -1309,8 +1246,7 @@ height="3.4340616797900263in"}
 >
 > Run the example and examine the log.
 
-![](./media/image255.png){width="5.87063101487314in"
-height="1.0608333333333333in"}
+![](../media/image255.png)
 
 > The full script now looks like the example below.
 >
@@ -1387,9 +1323,7 @@ height="1.0608333333333333in"}
 > Now that the application is in a suitable state, you can use built-in
 > device methods and also go spelunking for on-screen objects to
 > automate your test. This lab starts with the code from the previous
-> [[Wait for Processes and
-> Activities]{.underline}](#wait-for-processes-and-activities) lab and
-> adds statements that find on-screen objects.
+> Wait for Processes and Activities lab and adds statements that find on-screen objects.
 >
 > Before adding the code, first find the on-screen objects that you want
 > to automate in the Object Browser.
@@ -1411,8 +1345,7 @@ height="1.0608333333333333in"}
     show up in the Object Browser. For this example, the ViewID values
     needed for scripting are \"menu\_add\", \"menu\_save\" and \"note\".
 
-![](./media/image256.jpeg){width="5.9136811023622045in"
-height="3.620833333333333in"}
+![](../media/image256.jpeg)
 
 > Add new variables **menuAdd**, **menuSave, editText** and
 > **noteEditorActivity** to the **var** list.
@@ -1591,7 +1524,7 @@ height="3.620833333333333in"}
 
 []{#Xamarin_Open_Apps_Testing .anchor}
 
-> **Summary**
+#### Summary
 >
 > This chapter explored TestComplete mobile testing mechanisms including
 > how to test mobile web applications that may have multiple layouts

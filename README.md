@@ -71,5 +71,5 @@ While every precaution has been taken in the preparation of this document, the p
 [Appendix A - Cheat Sheet](./Cheat%20Sheet/readme.md)
 ------------------------------------------------
 
-[Appendix B - Types of Testing](./Types%20of%20Testing/readme.md)
+[Appendix B - Types of Testing](./Type%20of%20Testing/readme.md)
 -------------------------------------------------------------------
